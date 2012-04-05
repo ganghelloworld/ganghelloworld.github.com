@@ -2,5 +2,8 @@
 layout: page
 title: "About"
 description: ""
+group: navigation
 ---
 {% include JB/setup %}
+###冯刚(Feng Gang)
+###哈尔滨工业大学 计算机学院(Harbin Institute of Technology, Compute Science and Technology Department)
