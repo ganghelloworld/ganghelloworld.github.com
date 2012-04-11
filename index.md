@@ -1,14 +1,22 @@
 ---
 layout: page
-title: Hello GigHub && Jekyll!
-tagline: GigHub and Jekyll is amazing!
+title: Posts List
+header: Posts By Category
+tagline: welcome!
 ---
 {% include JB/setup %}
 
-##GigHub
+<ul class="tag_box inline">
+  {% assign categories_list = site.categories %}
+  {% include JB/categories_list %}
+</ul>
 
-	It's good
 
-##Jekyll
-	
-	wow!
+{% for category in site.categories %} 
+  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+  <ul>
+    {% assign pages_list = category[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+

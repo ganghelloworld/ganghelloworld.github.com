@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "解决C++中类的交叉引用"
-tagline: "需要提前申明类"
+title: 解决C++中类的交叉引用
+tagline: 需要提前申明类
 category: C_plus_plus
 tags: [C++]
 ---
