@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "在C++中定义类仅包含一些常量"
+title: "在C++中定义仅包含一些常量的集合"
 description: ""
 category: C_plus_plus
 tags: [C++]
